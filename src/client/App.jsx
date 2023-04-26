@@ -2,8 +2,6 @@ import "./App.css";
 
 import { useEffect, useState } from "react";
 
-import reactLogo from "./assets/react.svg";
-
 function App() {
   const [message, setMessage] = useState("Loading...");
 
