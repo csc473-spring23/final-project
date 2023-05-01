@@ -6,7 +6,8 @@
     "dev": "nodemon src/server/main.ts -w src/server",
     "start": "NODE_ENV=production ts-node src/server/main.ts",
     "build": "vite build",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "lint": "eslint src/"
   },
   "dependencies": {
     "express": "^4.18.2",
