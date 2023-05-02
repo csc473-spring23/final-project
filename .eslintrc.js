@@ -18,4 +18,9 @@ module.exports = {
   },
   plugins: ["react", "@typescript-eslint", "jsx-a11y"],
   rules: {},
+  settings: {
+    react: {
+      version: "detect",
+    },
+  },
 };
